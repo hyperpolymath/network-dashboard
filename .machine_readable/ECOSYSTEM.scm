@@ -1,20 +1,8 @@
 ;; SPDX-License-Identifier: PMPL-1.0-or-later
-;; ECOSYSTEM.scm - Ecosystem position for network-dashboard
-;; Media-Type: application/vnd.ecosystem+scm
-
-(ecosystem
-  (version "1.0")
-  (name "network-dashboard")
-  (type "")
-  (purpose "")
-
-  (position-in-ecosystem
-    (category "")
-    (subcategory "")
-    (unique-value ()))
-
-  (related-projects ())
-
-  (what-this-is ())
-
-  (what-this-is-not ()))
+(ecosystem (metadata (version "0.2.0") (last-updated "2026-02-08"))
+  (project (name "network-dashboard") (purpose "Phoenix LiveView dashboard for FlatRacoon module status") (role observability))
+  (flatracoon-integration
+    (parent "flatracoon/netstack")
+    (layer observability)
+    (depended-on-by ())
+    (depends-on ("poly-observability-mcp"))))

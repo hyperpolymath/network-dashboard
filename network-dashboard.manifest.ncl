@@ -7,7 +7,7 @@
   layer = 'observability,
   description = "Phoenix LiveView dashboard for FlatRacoon module status and network observability",
   repo = "github.com/hyperpolymath/network-dashboard",
-  requires = ["kubernetes"],
+  requires = ["kubernetes", "poly-observability-mcp"],
   provides = ["dashboard", "module-status", "network-visualization"],
   config_schema = "configs/schema.ncl",
   health_endpoint = "/health",
