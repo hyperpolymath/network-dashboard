@@ -1,4 +1,4 @@
-;; SPDX-License-Identifier: PMPL-1.0-or-later
+;; SPDX-License-Identifier: MPL-2.0
 (ecosystem (metadata (version "0.2.0") (last-updated "2026-02-08"))
   (project (name "network-dashboard") (purpose "Phoenix LiveView dashboard for FlatRacoon module status") (role observability))
   (flatracoon-integration

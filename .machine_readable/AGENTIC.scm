@@ -1,4 +1,4 @@
-;; SPDX-License-Identifier: PMPL-1.0-or-later
+;; SPDX-License-Identifier: MPL-2.0
 ;; AGENTIC.scm - AI agent interaction patterns for network-dashboard
 
 (define agentic-config
