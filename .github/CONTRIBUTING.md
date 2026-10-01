@@ -20,6 +20,7 @@ Prerequisites — the minimum versions and where to get them:
 - `<tool` `2>` v\`\<version\>\` — `<install` `instruction>`.
 
 - SSH signing key configured (estate policy — all commits must be
+- Git 2.34 or later — required for SSH commit signing.
   signed). See
   [standards/docs/secure-coding-training.md](https://github.com/hyperpolymath/standards/blob/main/docs/secure-coding-training.md).
 
