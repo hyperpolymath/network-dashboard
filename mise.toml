@@ -3,6 +3,9 @@
 rust = "latest"
 zig = "latest"
 bun = "latest"
+erlang = "latest"
+elixir = "latest"
+just = "latest"
 
 # Package managers
 cargo = "latest"
